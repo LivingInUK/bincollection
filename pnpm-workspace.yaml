@@ -1,7 +1,0 @@
-packages:
-  # executable/launchable applications
-  - 'apps/*'
-  # api
-  - 'api/*'  
-  # all packages in subdirs of packages/ and components/
-  - 'packages/*'
