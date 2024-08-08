@@ -3,8 +3,8 @@ FROM node:21.1.0-alpine as base
 # FROM harbor.entitymaker.com/library/node:21.1.0-alpine as base
 
 ARG MODE=production
-ARG USER_ID=1000
-ARG GROUP_ID=1000
+ARG USER_ID=1001
+ARG GROUP_ID=1001
 ARG USER_NAME="demo"
 ARG GROUP_NAME="demo"
 ARG WORK_DIR="/usr/src/app"
