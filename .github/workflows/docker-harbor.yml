@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: BuildAndPushImageOnHarbor
       run: |
-        docker build ./ -t harbor.entitymaker.com/pub/sunnybay/sunnybay-backend:${{ github.run_number }}
-        docker push harbor.entitymaker.com/pub/sunnybay/sunnybay-backend:${{ github.run_number }}
+        docker build ./ -t harbor.entitymaker.com/pub/sunnybay-nextjs:${{ github.run_number }}
+        docker push harbor.entitymaker.com/pub/sunnybay-nextjs:${{ github.run_number }}
     
 
