@@ -35,7 +35,7 @@ RUN apk --no-cache add make bash
 RUN npm install pm2 -g
 
 COPY --chown=demo:demo package.json ${WORK_DIR}
-COPY --chown=demo:demo package-lock.json ${WORK_DIR}
+COPY --chown=demo:demo yarn.lock ${WORK_DIR}
 RUN yarn install
 
 COPY . .
