@@ -1,5 +1,9 @@
 .git
+.github
+.gitignore
+.next
 .results
+docs
 scripts
 *Dockerfile*
 node_modules

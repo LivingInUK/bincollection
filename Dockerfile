@@ -36,10 +36,12 @@ RUN npm install pm2 -g
 
 COPY --chown=demo:demo package.json ${WORK_DIR}
 COPY --chown=demo:demo yarn.lock ${WORK_DIR}
+USER demo
+
 RUN yarn install
 
 COPY . .
-USER demo
+
 
 RUN yarn build:ci
 
