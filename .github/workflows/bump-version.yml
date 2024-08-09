@@ -1,4 +1,4 @@
-name: Version Increment
+name: Bump Version
 
 on: pull_request
 
